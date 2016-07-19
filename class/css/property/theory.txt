@@ -690,8 +690,55 @@ CSS Overflow : 정해진 영역밖으로 컨텐츠가 나오는 현상을 어떻게 표현할지 해주는 �
 browser = user agent 비슷한 개념
 
 --------------------------------------------------------------------------------------
+
+CSS Combinators
+
+ Descendant(자손) Selector : ex)div태그 안에 p태그에 ~   넓은 범위의 포함(스페이스바)
+
+  div p {
+      background-color: yellow;
+  }
+
+ Child(자식) Selector : 바로 하위자식요소에만 적용
+
+  div > p {
+      background-color: yellow;
+  }
+
+ Adjacent Sibling Selector : 인접한 (다음)요소에 적용 (바로 옆)
+
+  div + p {
+      background-color: yellow;
+  }
+
+ General Sibling Selector : 인접한 (다음)요소위상 모두 적용
+
+  div ~ p {
+      background-color: yellow;ㄹ
+  }
 --------------------------------------------------------------------------------------
+
+CSS Pseudo-classes : 이미 존재하는 element의 특별한 상태나 순서의 대상을 선탁하게 해주는 것
+
+ Syntax
+
+ Anchor Pseudo-classes
+
+  /* unvisited link */
+
+ Match the first <p> element
+
+  p:first-child {
+      color: blue;
+  }
 --------------------------------------------------------------------------------------
+
+CSS Pseudo-elements : 원래는 없는 요소가 생성됨
+
+ CSS - The ::before Pseudo-element : 시작태그 바로 밑에 생성
+
+ CSS - The ::after Pseudo-element : 종료태그 바로 위에 생성
+
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
