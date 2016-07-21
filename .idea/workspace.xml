@@ -2,103 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d8ac6c-47dd-4f58-ac85-4ec3cbc4228c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13167345_128201254255622_510084311_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13167350_928734413902619_1927688809_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13249690_264158533935626_883210712_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13256853_1450409138318233_719438924_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13258895_597048220454157_979511717_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13259662_1731604950388115_31765600_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13267319_217654555287274_842354425_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13285314_614919445327966_1579472224_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13285364_1048694198547913_225446816_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13391182_1810083205880439_685077472_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13414358_543946162455560_2078486633_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/13423637_1610621079250595_310471125_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/1454744084.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/1454744830.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/1454745114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/1467794853.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/__utm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/banner_delivery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/banner_praise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/bg_header.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/bg_menu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_banner_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_banner_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_ccm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_celectory.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_happypoint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_ksa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_norton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_pop_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_search_close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/btn_spc_story.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/ev1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/ev2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/ev3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/ev4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/f-award1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/f-award2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/f-award3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/f-award4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/family_size_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/foot_sns01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/foot_sns02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/foot_sns03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/foot_sns04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/footer_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/founding_ph_img01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/gnb_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_event.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_happyorder_delivery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_sns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/h_title_T.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/icon_blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/icon_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/icon_instgram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/icon_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/icon_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_flaovr_month_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_flavor_month_1607.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_happyorder_delivery.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_happypoint_app.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_main_banner_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_main_banner_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_main_banner_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_main_banner_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_main_banner_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_03-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_menu_list_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_month_1607.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/img_store.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/logo_anysecure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/logo_baskinrobbins.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/logo_dothome.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sns_blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sns_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sns_instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sns_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/stit_happypoint.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/stit_store.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sub_visual01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/sub_visual01_img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images/다운로드.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/baskin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/p1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/p1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/p2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/html/practice/br_test.html" afterPath="$PROJECT_DIR$/class/html/practice/br_test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/images/gnb_menu.png" afterPath="$PROJECT_DIR$/class/webpage/images/gnb_menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/baskin.css" afterPath="$PROJECT_DIR$/class/webpage/css/baskin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/baskin.html" afterPath="$PROJECT_DIR$/class/webpage/baskin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Front_End.iws" />
@@ -119,15 +25,19 @@
     <favorites_list name="Front_End" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5442296">
       <split-first>
         <leaf>
           <file leaf-file-name="baskin.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/webpage/baskin.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41899443">
-                  <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-                  <folding />
+                <state vertical-scroll-proportion="0.64846414">
+                  <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -139,8 +49,8 @@
           <file leaf-file-name="baskin.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/webpage/css/baskin.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1632209">
-                  <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.551495">
+                  <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -149,8 +59,8 @@
           <file leaf-file-name="theory.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.866667">
-                  <caret line="661" column="21" selection-start-line="661" selection-start-column="17" selection-end-line="661" selection-end-column="21" />
+                <state vertical-scroll-proportion="-9.7">
+                  <caret line="595" column="6" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -214,8 +124,8 @@
         <option value="$PROJECT_DIR$/class/webpage/baskin.css" />
         <option value="$PROJECT_DIR$/class/webpage/css/reset.css" />
         <option value="$PROJECT_DIR$/class/css/property/theory.txt" />
-        <option value="$PROJECT_DIR$/class/webpage/baskin.html" />
         <option value="$PROJECT_DIR$/class/webpage/css/baskin.css" />
+        <option value="$PROJECT_DIR$/class/webpage/baskin.html" />
       </list>
     </option>
   </component>
@@ -227,10 +137,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-2" />
+    <option name="width" value="1927" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -375,10 +285,35 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="property" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -457,26 +392,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-2" y="0" width="1927" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14479166" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10675039" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965133" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.50429183" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -840,10 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31843576">
           <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,30 +782,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.554951">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.7">
+          <caret line="595" column="6" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/baskin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41899443">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.866667">
-          <caret line="661" column="21" selection-start-line="661" selection-start-column="17" selection-end-line="661" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.64846414">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/css/baskin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1632209">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.551495">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding />
         </state>
       </provider>
