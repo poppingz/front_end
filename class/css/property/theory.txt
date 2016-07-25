@@ -156,19 +156,14 @@ a HEX value - like "#ff0000" (2자리씩 RGB) 16진수
 
 --------------------------------------------------------------------------------------
 
-CSS background (이미지가 배경영역보다 작으면 가로/세로 방향으로 반복되어 꽉 채우는게 기본 성질)
+CSS background
 
 properties : background-color
              background-image
              background-repeat
-              -반복되지 않도록 하기 위해선 background-no repeat:
-              -가로방향 반복 : background-no repeat-x:
-              -세로방향 반복 : background-no repeat-y:
-              -모든방향 반복 : background-no repeat:
              background-attachment
-              -background-attachment: fixed; (고정,position-fixed랑 다른 점은 뒤로 내보내기)
              background-position
-              -background-position: right top;(right자리는 좌우,top자리는 위아래
+
 --------------------------------------------------------------------------------------
 
 CSS Text
@@ -333,7 +328,7 @@ CSS font Property : 잘안씀
 
 CSS Links
 
-Styling Links : 링크 태그 상태 설정
+Styling Links : 링크사이트에 대한 상태
                 a:link    : 미방문
                 a:visited : 방문
                 a:hover   : 마우스 커서를 올려둔 상태
@@ -635,13 +630,6 @@ CSS Layout - width and max-width, min-width
 --------------------------------------------------------------------------------------
 
 CSS Layout - float and clear
- -float된 영역의 부모 element는 높이가 인식되지 않으므로,
-  하단 영역과의 관계가 제대로 표현되지 않을 수 있음
-
- -하단 영역의 clear:both가 제대로 동작하게 하려면,
-  float된 영역의 parent element의 높이가 인식되어야 함.
-
- -float된 영역의 parent element의 높이를 인식시키는 방법 4가지
 
 The float Property 가로배치를 위해 띄우기 (앞으로 가져오기, 뒤로 보내기)
                    영역(배경)은 이동
@@ -664,81 +652,14 @@ CSS Layout - The position Property : 박스배치와 관련
 The position Property : static (기본설정,부모요소 기준,좌표설정 불가)
                         relative (자기위치좌표 기준으로, 원래 영역 유지)
                         fixed (body태그기준-browser)
-                        absolute (부모요소 좌표기준으로,parent요소도 포지션속성을 정해주어야
-                                  child요소 포지션속성이 변함 원래 영역 유지X)
+                        absolute (부모요소 좌표기준으로, 원래 영역 유지X)
 
 --------------------------------------------------------------------------------------
-
-Overlapping Elements : 영역 겹침, 단위없음(px,em등),기본값0
-
-z-index: -1;
-
 --------------------------------------------------------------------------------------
-
-CSS Layout - Overflow
-
-CSS Overflow : 정해진 영역밖으로 컨텐츠가 나오는 현상을 어떻게 표현할지 해주는 속성
-               visible - 기본상태
-               hidden  - 밖으로 나간 부분을 숨김
-               scroll  - 밖으로 나간 부분을 스크롤 할 수 있게 함
-                         (영역밖으로 나가지 않더라도 스크롤바는 생성)
-               auto    - 영역밖으로 나갔을 경우 스크롤바 생성
-                         영역밖으로 나가지 않았을 경우 스크롤바 비생성
-
 --------------------------------------------------------------------------------------
-
-browser = user agent 비슷한 개념
-
 --------------------------------------------------------------------------------------
-
-CSS Combinators
-
- Descendant(자손) Selector : ex)div태그 안에 p태그에 ~   넓은 범위의 포함(스페이스바)
-
-  div p {
-      background-color: yellow;
-  }
-
- Child(자식) Selector : 바로 하위자식요소에만 적용
-
-  div > p {
-      background-color: yellow;
-  }
-
- Adjacent Sibling Selector : 인접한 (다음)요소에 적용 (바로 옆)
-
-  div + p {
-      background-color: yellow;
-  }
-
- General Sibling Selector : 인접한 (다음)요소위상 모두 적용
-
-  div ~ p {
-      background-color: yellow;ㄹ
-  }
 --------------------------------------------------------------------------------------
-
-CSS Pseudo-classes : 이미 존재하는 element의 특별한 상태나 순서의 대상을 선탁하게 해주는 것
-
- Syntax
-
- Anchor Pseudo-classes
-
-  /* unvisited link */
-
- Match the first <p> element
-
-  p:first-child {
-      color: blue;
-  }
 --------------------------------------------------------------------------------------
-
-CSS Pseudo-elements : 원래는 없는 요소가 생성됨
-
- CSS - The ::before Pseudo-element : 시작태그 바로 밑에 생성
-
- CSS - The ::after Pseudo-element : 종료태그 바로 위에 생성
-
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------

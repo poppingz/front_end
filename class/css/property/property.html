@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSS property</title>
-  <link rel="stylesheet" href="property.css"/>
+  <title>CSS Property</title>
+  <link rel="stylesheet" href="property.css" />
 </head>
 <body>
 
-  <p>법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다. 대통령은 조국의 평화적 통일을 위한 성실한 의무를 진다. 국회에서 의결된 법률안은 정부에 이송되어 15일 이내에 대통령이 공포한다.</p>
+  <p>국가는 농수산물의 수급균형과 유통구조의 개선에 노력하여 가격안정을 도모함으로써 농·어민의 이익을 보호한다. 국교는 인정되지 아니하며, 종교와 정치는 분리된다.</p>
 
-  <p id="text-align">비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다. 국회의원과 정부는 법률안을 제출할 수 있다. 국회에 제출된 법률안 기타의 의안은 회기중에 의결되지 못한 이유로 폐기되지 아니한다. 다만, 국회의원의 임기가 만료된 때에는 그러하지 아니하다. 감사원은 세입·세출의 결산을 매년 검사하여 대통령과 차년도국회에 그 결과를 보고하여야 한다. 국가는 평생교육을 진흥하여야 한다. 국가원로자문회의의 의장은 직전대통령이 된다. 다만, 직전대통령이 없을 때에는 대통령이 지명한다. 법원은 최고법원인 대법원과 각급법원으로 조직된다.</p>
+  <p id="text-align" class="ppp">국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다. 국회의원은 국회에서 직무상 행한 발언과 표결에 관하여 국회외에서 책임을 지지 아니한다. 모든 국민은 종교의 자유를 가진다. 군사법원의 조직·권한 및 재판관의 자격은 법률로 정한다. 의원을 제명하려면 국회재적의원 3분의 2 이상의 찬성이 있어야 한다. 헌법재판소 재판관은 정당에 가입하거나 정치에 관여할 수 없다. 모든 국민은 사생활의 비밀과 자유를 침해받지 아니한다. 민주평화통일자문회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다.</p>
 
   <a href="http://www.naver.com" class="text-decoration">네이버 링크</a>
 
-  <p class="font">누구든지 병역의무의 이행으로 인하여 불이익한 처우를 받지 아니한다. 국가유공자·상이군경 및 전몰군경의 유가족은 법률이 정하는 바에 의하여 우선적으로 근로의 기회를 부여받는다.</p>
+  <p class="font">대통령은 법률에서 구체적으로 범위를 정하여 위임받은 사항과 법률을 집행하기 위하여 필요한 사항에 관하여 대통령령을 발할 수 있다. 비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 초병·초소·유독음식물공급·포로에 관한 죄중 법률이 정한 경우에 한하여 단심으로 할 수 있다. 다만, 사형을 선고한 경우에는 그러하지 아니하다.</p>
 
   <a href="http://www.daum.net" class="link-status" target="_blank">링크 상태 연습</a>
 
   <table summary="중간고사 성적표">
     <caption>성적표</caption>
     <colgroup>
-      <col style="width: 100px"/>
-      <col style="width: auto;"/>
+      <col style="width:100px;" />
+      <col style="width:auto;" />
     </colgroup>
     <thead>
     <tr>
@@ -46,21 +46,22 @@
     </tr>
     <tr>
       <td>수학</td>
-      <td>90</td>
+      <td>89</td>
     </tr>
     </tbody>
   </table>
 
   <p class="box-model-block">content in block</p>
+
   <a href="#" class="box-model-inline">content in inline</a>
 
-  <div class="display-inline">content in block1</div>
+  <div class="display-inline">content in block</div>
 
-  <span class="display-block">content in inline1</span>
+  <span class="display-block">content in inline</span>
 
   <div>
-    <div class="display-inline-block">content in block1</div>
-    <div class="display-inline-block">content in block1</div>
+    <div class="display-inline-block">content in block</div>
+    <div class="display-inline-block">content in block</div>
   </div>
 
   <div class="float-wrap">
@@ -70,17 +71,17 @@
   </div>
 
   <div class="relative-wrap">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </div>
     <div class="position-relative">content</div>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </div>
   </div>
 
   <div class="outer">
-  <div class="absolute-wrap">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    <div class="position-absolute">content</div>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-  </div>
+    <div class="absolute-wrap">
+      <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </div>
+      <div class="position-absolute">content</div>
+      <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </div>
+    </div>
   </div>
 
   <div class="fixed-wrap">
@@ -92,5 +93,25 @@
     <div class="overlap-b">content B</div>
   </div>
 
+  <div style="width:100px; height:100px; border:1px solid green">
+    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </div>
+  </div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,65 +1,61 @@
 .wrap{
-  width: 980px;
-  margin: 0 auto;
+  width:980px;
+  margin:0 auto;
+  color:#fff;
 }
 
 .header{
-  height: 100px;
-  background: darkgreen;
-  margin-bottom: 20px;
-}
-
-.container{
-  margin: 20px 0;
+  height:100px;
+  background:brown;
 }
 
 .container:after{
-  content: "";
-  display: block;
-  clear: both;
+  content:"";
+  display:block;
+  clear:both;
 }
 
-.left{
-  float: left;
+.left-col{
+  width:350px;
+  float:left;
 }
 
-.first{
-  height: 200px;
-  width: 300px;
-  background: red;
+.first-tile{
+  height:280px;
+  background:orangered;
 }
 
 .and-another{
-  height: 380px;
-  width: 300px;
-  background: aqua;
+  height:550px;
+  background:skyblue;
 }
 
-.right{
-  float: left;
+.right-col{
+  width:630px;
+  float:left;
 }
 
-.another{
-  height: 480px;
-  width: 680px;
-  background: silver;
+.another-tile{
+  height:600px;
+  background:orange;
 }
 
 .forth{
-  height: 100px;
-  width: 480px;
-  background: thistle;
-  float: left;
+  width:400px;
+  height:230px;
+  background:darkblue;
+  float:left;
 }
 
 .last{
-  height: 100px;
-  width: 200px;
-  background: violet;
-  float: left;
+  width:230px;
+  height:230px;
+  background:greenyellow;
+  float:left;
 }
 
+
 .footer{
-  height: 100px;
-  background: darkgreen;
+  height:100px;
+  background:brown;
 }

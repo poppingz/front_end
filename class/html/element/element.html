@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+  <meta charset="UTF-8">
+  <title></title>
 </head>
 <body>
 
@@ -21,7 +21,7 @@
 
   <!-- 링크(Anchor) 태그 : inline -->
   <!--
-    <a> attribute(속성) - href : 링크 연결 주소
+    <a> attribute(속성) - href : 링크 연결 주소 입력
     <a href="연결할 주소">표시할 텍스트</a>
   -->
   <a href="http://www.naver.com">네이버</a>
@@ -33,27 +33,27 @@
       jpg : 사진
       gif : 로고, 그래프, 투명 배경
       png : 다목적, 투명 배경
-    src : 이미지 파일 경로 및 이름
+    src : 이미지 파일 경로및 이름
     alt : 이미지 설명을 위한 대체 텍스트
   -->
-  <img src="photo.jpg" alt="람보르기니" />
+  <img src="photo.jpg" alt="지프 랭글러 사진" />
   <!--// 이미지(image) 태그 -->
 
-  <!-- 순서없는 목록 : block -->
+  <!-- 순서 없는 목록 : block -->
   <ul>
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
   </ul>
-  <!--// 순서없는 목록 -->
+  <!--// 순서 없는 목록 -->
 
-  <!-- 순서있는 목록 : block -->
+  <!-- 순서 있는 목록 : block -->
   <ol>
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
   </ol>
-  <!--// 순서있는 목록 -->
+  <!--// 순서 있는 목록 -->
 
   <!-- 정의 목록 -->
   <dl>
@@ -82,77 +82,47 @@
   <ol>
     <li>
       <p>역사</p>
-      <ol>
-        <li>개발</li>
-        <li>최초 규격</li>
-        <li>
-          <p>표준 버전의 역사</p>
-          <ol>
-            <li>HTML 버전 스케줄</li>
-            <li>HTML 초안 버전 스케줄</li>
-            <li>XHTML 버전</li>
-          </ol>
-        </li>
+        <ol>
+          <li>개발</li>
+          <li>최초 규격</li>
+          <li>
+            <p>표준 버전의 역사</p>
+            <ol>
+              <li>HTML 버전 스케줄</li>
+              <li>HTML 초안 버전 스케줄</li>
+              <li>XHTML 버전</li>
+            </ol>
+          </li>
       </ol>
     </li>
     <li>
       <p>마크업</p>
-      <ol>
-        <li>
-          HTML 요소
-          <ol>
-            <li>HTML 요소의 일반적인 형태</li>
-            <li>HTML 요소의 가장 보편적인 형태</li>
-            <li>태그의 기본적인 형태</li>
-            <li>단락 구획</li>
-            <li>	각주</li>
-            <li>	HTML에서 사용되는 마크업 요소의 형태</li>
-            <li>	주요 HTML 요소들</li>
-            <li>	속성</li>
-          </ol>
-        </li>
-        <li>데이터 형식</li>
-        <li>문서 형식 선언</li>
-      </ol>
+      <ol></ol>
     </li>
     <li>시맨틱 웹</li>
-    <li>
-      <p>전송</p>
-      <ol>
-        <li>HTPP</li>
-        <li>HTML 전자 우편</li>
-        <li>명명 규칙</li>
-        <li>HTML 애플리케이션</li>
-      </ol>
-    </li>
-    <li>위치위그 편집기</li>
+    <li>전송</li>
+    <li>위지위그 편집기</li>
     <li>같이 보기</li>
     <li>참조</li>
-    <li>
-      <p>바깥 고리</p>
-        <ol>
-          <li>HTML 강좌</li>
-        </ol>
-    </li>
+    <li>바깥 고리</li>
   </ol>
   <!--// 포함된 리스트 -->
 
   <!-- iframe 태그 : inline -->
   <iframe src="http://www.daum.net"></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RzY4eVPBYKA" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8K7upG029_U" frameborder="0" allowfullscreen></iframe>
   <!--// iframe 태그 -->
 
-  <!-- 특수문자 : block -->
+  <!-- 특수문자 -->
   <p>3 &lt; 5</p>
   <p>5 &gt; 3</p>
   <p>boys &amp; girls</p>
-  <p>Americano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coffee</p>
-  <p>Americano <br /><br /><br /><br /><br /> Coffee</p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
-  <p></p>
+  <p>Americano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coffee</p>
+  <p>
+    Americano
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    Coffe
+  </p>
   <!--// 특수문자 -->
 
   <!-- 테이블 -->
@@ -185,7 +155,7 @@
     </colgroup>
     <thead>
     <tr>
-      <th></th>
+      <th>과목</th>
       <th>성적</th>
     </tr>
     </thead>
@@ -206,177 +176,57 @@
     </tr>
     <tr>
       <td>수학</td>
-      <td>90</td>
+      <td>89</td>
     </tr>
     </tbody>
   </table>
-<!--// 테이블 -->
 
-<!-- 리스트 연습 -->
-  <ol>
-    <li>
-      <p>학교소개</p>
-      <ul>
-        <li>
-          <p>총장실</p>
-          <ol>
-            <li>인사말</li>
-            <li>총장약력</li>
-            <li>총장동정</li>
-            <li>역대총장</li>
-            <li>총장과의 대화</li>
-          </ol>
-        </li>
-        <li>
-          <p>역사/이념</p>
-          <ol>
-            <li>연혁</li>
-            <li>설립취지</li>
-            <li>건학이념</li>
-            <li>교육목적 및 목표</li>
-          </ol>
-        </li>
-        <li>
-          <p>대학비전</p>
-          <ol>
-            <li>비전과 전략방향</li>
-            <li>비전전략체계</li>
-            <li>영역별 전략 및 실행과제</li>
-            <li>중장기 로드맵</li>
-          </ol>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p>입학안내</p>
-      <ul>
-        <li>대학</li>
-        <li>대학원</li>
-        <li>한국어교육</li>
-      </ul>
-    </li>
-    <li>
-      <p>대학/대학원</p>
-      <ul>
-        <li>
-          <p>대학</p>
-          <ol>
-            <li>신학순결대학</li>
-            <li>인문사회대학</li>
-            <li>글로벌비지니스외국어대학</li>
-            <li>건강보건대학</li>
-            <li>공과대학</li>
-            <li>교양교육원</li>
-          </ol>
-        </li>
-        <li>
-          <p>대학원</p>
-          <ol>
-            <li>일반대학원</li>
-            <li>신학전문대학원</li>
-            <li>교육대학원</li>
-            <li>글로컬통합대학원</li>
-          </ol>
-        </li>
-      </ul>
-    </li>
-  </ol>
-<!--// 리스트 연습 -->
+  <table summary="">
+    <caption></caption>
+    <colgroup>
+      <col />
+    </colgroup>
+    <thead>
 
-<!-- 테이블 연습 -->
-  <table width="611" border="1">
+    </thead>
     <tbody>
-    <tr>
-      <td width="133">소속</td>
-      <td width="151">전공</td>
-      <td width="200">내선</td>
-      <td width="66">호실</td>
-    </tr>
-    <tr>
-      <td rowspan="4">대학원 교학팀</td>
-      <td>일반,신학</td>
-      <td>530-2602,2604,2684</td>
-      <td rowspan="4">본409B</td>
-    </tr>
-    <tr>
-      <td>교육</td>
-      <td>530-2604</td>
-    </tr>
-    <tr>
-      <td>행정,통번역,무도</td>
-      <td>530-2617</td>
-    </tr>
-    <tr>
-      <td>통합의학</td>
-      <td>530-2617</td>
-    </tr>
-    <tr>
-      <td colspan="2">신학순결대학교학팀</td>
-      <td>530-2501,2685</td>
-      <td>본403A</td>
-    </tr>
-    <tr>
-      <td colspan="2">신학순결학과</td>
-      <td>530-2686</td>
-      <td>본403A</td>
-    </tr>
-    <tr>
-      <td colspan="2">인문사회대학교학팀</td>
-      <td>530-2501,2503</td>
-      <td>본317</td>
-    </tr>
-    <tr>
-      <td colspan="2">국어국문학과</td>
-      <td>530-2403</td>
-      <td rowspan="3">인201</td>
-    </tr>
-    <tr>
-      <td colspan="2" rowspan="2">역사문화콘텐츠학과</td>
-      <td>530-2455(역사)</td>
-    </tr>
-    <tr>
-      <td>530-2491(문화)</td>
-    </tr>
-    <tr>
-      <td colspan="2">시각디자인학과</td>
-      <td>530-2594,2564</td>
-      <td>원628A</td>
-    </tr>
+
     </tbody>
   </table>
-<!--// 테이블연습 -->
+  <!-- 테이블 -->
 
-<!-- 폼 요소 -->
+  <!-- 폼 요소 -->
   <form>
 
-    <!-- Input 태그 : inline -->
+    <!-- input 태그 : inline -->
     <fieldset>
-      <legend>Input 요소</legend>
-    <input type="button" value="확인"/>
-    <input type="checkbox"/>
-    <input type="file"/>
-    <input type="image"/>
-    <input type="password"/>
-    <input type="radio"/>
-    <input type="submit"/>
-    <input type="text"/>
+      <legend>input 요소</legend>
+      <input type="button" value="확인" />
+      <input type="checkbox" />
+      <input type="file" />
+      <input type="image" />
+      <input type="password"/>
+      <input type="radio"/>
+      <input type="submit" />
+      <input type="text" />
     </fieldset>
-    <!--// Input 태그 : inline -->
+    <!--// input 태그 -->
 
     <!-- select 태그 : inline -->
     <fieldset>
-    <select>
-      <option>HTML</option>
-      <option>Javascript</option>
-      <option>CSS</option>
-    </select>
-    <select>
-      <option>HTML</option>
-      <option>Javascript</option>
-      <option>CSS</option>
-    </select>
+      <legend>select 요소</legend>
+      <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>Javascript</option>
+      </select>
+      <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>Javascript</option>
+      </select>
 
-      <!-- Optgroup 태그 : inline -->
+      <!-- optgroup -->
       <select>
         <optgroup label="초급">
           <option>HTML</option>
@@ -386,53 +236,53 @@
           <option>Javascript</option>
         </optgroup>
       </select>
-    </fieldset>
-      <!--// Optgroup 태그 : inline -->
+      <!--// optgroup -->
 
+    </fieldset>
     <!--// select 태그 -->
 
-    <!-- Textara 태그 inline -->
+    <!-- textarea 태그 " inline -->
     <fieldset>
-      <legend>Textarea 요소</legend>
+      <legend>textarea 요소</legend>
       <textarea></textarea>
       <textarea></textarea>
     </fieldset>
-    <!--// Textara 태그 -->
+    <!--// textarea 태그 -->
 
-    <!-- Button 태그 : inline -->
+    <!-- button 태그 -->
     <fieldset>
-      <legend>Button 요소</legend>
-      <button type="button" onclick="alert('닫아')">확인</button>
-      <button type="reset" onclick="alert('실패')">취소</button>
+      <legend>button 요소</legend>
+      <button type="button">확인</button>
+      <button type="button">확인</button>
     </fieldset>
-    <!--// Button 태그 -->
+    <!--// button 태그 -->
 
-    <!-- Label 태그 : inline -->
+    <!-- label 태그 -->
     <fieldset>
       <legend>레이블 요소</legend>
-     <label for="name">아이디</label>
-      <input type="text" id="name"/>
-      <label for="password">비밀번호</label>
-      <input type="password" id="password"/>
+      <label for="name">이름</label>
+      <input type="text" id="name" />
     </fieldset>
-    <!--// Label 태그 -->
-
-    <!-- Layout 태그  -->
-
-    <!-- div 태그 : block -->
-    <div>블럭 영역</div>
-    <div>블럭 영역</div>
-    <!--// div 태그  -->
-
-    <!-- span 태그 : inline -->
-    <span>인라인 영역</span>
-    <span>인라인 영역</span>
-    <!--// span 태그 : inline -->
-
-    <!--// Layout 태그  -->
+    <!--// label 태그 -->
 
   </form>
-<!--// 폼 요소 -->
+  <!--// 폼 요소 -->
+
+  <!-- Layout 태그 -->
+
+  <!-- div : block -->
+  <div>블럭 영역</div>
+  <div>블럭 영역</div>
+  <!--// div -->
+
+  <!-- span : inline -->
+  <span>인라인 영역</span>
+  <span>인라인 영역</span>
+  <!--// span -->
+
+  <!--// Layout 태그 -->
+
+
 
 </body>
 </html>
