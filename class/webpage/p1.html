@@ -3,38 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>페이지 제작 연습</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/p1.css" />
 </head>
 <body>
 <div>
-  <header>
+  <header class="header">
 
-    <h1>
-      <img src="images/logo2.png" alt="선문대학교 로고" />
-    </h1>
+    <div class="small-wrap">
 
-    <div>
-
-      <ul>
-        <li><a href="">ENGLISH</a></li>
-        <li><a href="">CHINESE</a></li>
-        <li><a href="">JAPANESE</a></li>
-      </ul>
-
-      <div>
+      <div class="lag">
 
         <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">LOGIN</a></li>
-          <li><a href="">SITEMAP</a></li>
-        </ul>
+         <li><a href="#" class="en">ENGLISH</a></li>
+         <li><a href="#" class="ch">CHINESE</a></li>
+         <li><a href="#" class="jp">JAPANESE</a></li>
+       </ul>
 
-        <a href="">선문 포털</a>
+      </div>
 
-        <fieldset>
-          <legend>검색</legend>
-          <input type="text" />
-          <button type="button">검색</button>
-        </fieldset>
+      <div class="small-wrap-right">
+
+        <div class="cs">
+
+          <ul>
+
+            <li><a href="#" class="home">HOME</a></li>
+            <li><a href="#" class="login">LOGIN</a></li>
+            <li><a href="#" class="sitemap">SITEMAP</a></li>
+            <li><a href="#" class="potal">선문 포털</a></li>
+
+          </ul>
+
+        </div>
+
+        <div>
+
+          <div>
+            <span>
+              <label for="total" class="blind">통합검색</label>
+              <input id="total" type="text" title="통합검색" placeholder="통합검색" class="search"/>
+            </span>
+            <button type="button" class="icon"></button>
+          </div>
+
+        </div>
 
       </div>
 
@@ -43,6 +56,10 @@
   </header>
 
   <nav>
+
+    <h1>
+      <img src="images/logo2.png" alt="선문대학교 로고" />
+    </h1>
 
     <ul>
       <li>
