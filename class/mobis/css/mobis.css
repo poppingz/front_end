@@ -1,0 +1,40 @@
+.wrap{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1060px;
+  margin: 0 auto;
+}
+
+.header{
+  position: relative;
+  width: 1060px;
+  margin: auto;
+}
+
+.logo{
+  float: left;
+}
+
+.gnb{
+  float: right;
+}
+
+.gnb-depth1-item{
+  float: left;
+  top: 0;
+  width: 180px;
+  padding: 0;
+  height: 100%;
+  min-height: 50px;
+}
+
+.gnb-depth1-link{
+  display: block;
+  padding: 30px 20px 32px 20px;
+  left: 0;
+}
+
+.gnb-depth2-link{
+  display: none;
+}

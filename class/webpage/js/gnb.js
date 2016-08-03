@@ -4,11 +4,11 @@
 
 $(function(){
 
-    $('.gnb-depth1-link').on('mouseenter', function() {
+    $('.gnb-depth1-link').on('mouseenter', function(){
         $('.gnb-depth2').delay(500).stop().fadeIn(1000);
         $('.gnb-bg').stop().animate({
-            height: 274
-        },300);
+            height:274
+        }, 300);
     });
 
     $('.gnb-depth1-link').on('mouseleave', function(){
