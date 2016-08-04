@@ -30,8 +30,8 @@
           <file leaf-file-name="mobis.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/mobis/html/mobis.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45392492">
-                  <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.49720672">
+                  <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -69,8 +69,8 @@
           <file leaf-file-name="mobis.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/mobis/css/mobis.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5182724">
-                  <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.49401525">
+                  <caret line="204" column="16" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -89,7 +89,7 @@
           <file leaf-file-name="dothome.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class/webpage/css/dothome.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.7">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="177" column="9" selection-start-line="177" selection-start-column="2" selection-end-line="177" selection-end-column="9" />
                   <folding />
                 </state>
@@ -99,8 +99,8 @@
           <file leaf-file-name="theory.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.7">
-                  <caret line="631" column="18" selection-start-line="631" selection-start-column="13" selection-end-line="631" selection-end-column="18" />
+                <state vertical-scroll-proportion="-18.133333">
+                  <caret line="677" column="27" selection-start-line="677" selection-start-column="25" selection-end-line="677" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -159,8 +159,8 @@
         <option value="$PROJECT_DIR$/class/webpage/css/sunmoon.css" />
         <option value="$PROJECT_DIR$/class/webpage/css/mobis.css" />
         <option value="$PROJECT_DIR$/class/webpage/mobis.html" />
-        <option value="$PROJECT_DIR$/class/mobis/css/mobis.css" />
         <option value="$PROJECT_DIR$/class/mobis/html/mobis.html" />
+        <option value="$PROJECT_DIR$/class/mobis/css/mobis.css" />
       </list>
     </option>
   </component>
@@ -172,9 +172,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="width" value="1916" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -231,6 +232,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,7 +329,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,10 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1916" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.013157895" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.013020833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -801,34 +802,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
+    <entry file="file://$PROJECT_DIR$/class/webpage/css/dothome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.7">
-          <caret line="631" column="18" selection-start-line="631" selection-start-column="13" selection-end-line="631" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="177" column="9" selection-start-line="177" selection-start-column="2" selection-end-line="177" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/webpage/css/dothome.css">
+    <entry file="file://$PROJECT_DIR$/class/css/property/theory.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.7">
-          <caret line="177" column="9" selection-start-line="177" selection-start-column="2" selection-end-line="177" selection-end-column="9" />
+        <state vertical-scroll-proportion="-18.133333">
+          <caret line="677" column="27" selection-start-line="677" selection-start-column="25" selection-end-line="677" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/mobis/css/mobis.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5182724">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.49401525">
+          <caret line="204" column="16" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/mobis/html/mobis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45392492">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49720672">
+          <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
           <folding />
         </state>
       </provider>

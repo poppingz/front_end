@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.section-wrap{
+  width: 100%;
+}
+
 .section-top{
   position: relative;
   width: 1060px;
@@ -82,4 +86,145 @@
   top: 100px;
   left: 280px;
   z-index: 1;
+}
+
+.mid-title{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.section-mid{
+  position: relative;
+  width: 1060px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.section-mid-title{
+  margin: 0 450px;
+  padding-bottom: 11px;
+}
+
+.mid-contents-1{
+  background: #faf05e;
+  position: absolute;
+  top: 78px;
+  left: 0;
+  width: 310px;
+  height: 435px;
+}
+
+.mid-contents-item-1{
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+.mid-contents-text-1{
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  z-index: 1;
+}
+
+.mid-contents-circle{
+  position: absolute;
+  top: 7px;
+  left: 70px;
+}
+
+.mid-contents-frame{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.mid-contents-2{
+  position: absolute;
+  top: 78px;
+  left: 360px;
+  width: 455px;
+  height: 300px;
+}
+
+.mid-contents-save-l{
+  float: left;
+  width: 222px;
+  height: 222px;
+}
+
+.mid-contents-save-2{
+  float: left;
+  width: 222px;
+  height: 222px;
+}
+
+.save-text-1{
+  position: absolute;
+  top: 230px;
+  left: 0;
+  margin: 10px 0 0;
+  padding: 0 0 0 13px;
+  color: #333;
+  font-size: 16px;
+  background: url("../../mobis/images/yellow1x15_bar.gif") no-repeat 0 6px;
+}
+
+.save-text-2{
+  position: absolute;
+  top: 230px;
+  left: 230px;
+  display: block;
+  margin: 10px 0 0;
+  padding: 0 0 0 13px;
+  color: #333;
+  font-size: 16px;
+  background: url("../../mobis/images/yellow1x15_bar.gif") no-repeat 0 6px;
+}
+
+.mid-contents-text-2{
+  position: absolute;
+  top: 270px;
+  left: 340px;
+}
+
+.mid-contents-3{
+   position: absolute;
+   top: 78px;
+   right: 0;
+   width: 222px;
+   height: 284px;
+ }
+
+.mid-contents-4{
+  position: absolute;
+  top: 550px;
+  left: 0;
+}
+
+.mid-contents-5{
+  position: absolute;
+  top: 392px;
+  left: 360px;
+  padding: 25px 0 0;
+  width: 700px;
+  border-top: 2px solid #4b524c;
+}
+
+.mid-contents-mnews{
+  margin-left: -590px;
+}
+
+.mid-contents-news-1-top{
+  position: absolute;
+  top: 65px;
+  padding: 10px 0 0;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #333;
+  background: url("../../mobis/images/grayTop20x2_bar.gif") no-repeat 0 0;
+}
+
+.footer{
+  height: 1000px;
 }
