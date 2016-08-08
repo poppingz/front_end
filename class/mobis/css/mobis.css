@@ -162,28 +162,52 @@
 
 .mid-contents-text-1{
   position: absolute;
-  top: -33px;
+  top: -35px;
   left: 36px;
   z-index: 1;
 }
 
 .mid-contents-circle{
   position: absolute;
-  top: -5px;
+  top: -7px;
   left: 71px;
 }
 
 .mid-contents-frame{
   position: absolute;
   left: 0;
-  top: -13px;
+  top: -15px;
+}
+
+.mid-content-bottom-text-1{
+  position: absolute;
+  width: 238px;
+  height: 24px;
+  top: 186px;
+  left: 21px;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.mid-content-bottom-text-2{
+  position: absolute;
+  width: 238px;
+  height: 54px;
+  top: 220px;
+  left: 36px;
+  z-index: 1;
+  font-size: 13px;
+  letter-spacing: -1px;
+  line-height: 18px;
 }
 
 .mid-contents-2{
   position: absolute;
   top: 78px;
   left: 360px;
-  width: 455px;
+  width: 465px;
   height: 300px;
 }
 
@@ -242,6 +266,10 @@
   left: 0;
 }
 
+.mid-content{
+
+}
+
 .mid-contents-5{
   position: absolute;
   top: 392px;
@@ -257,12 +285,48 @@
 
 .mid-contents-news-1-top{
   position: absolute;
-  top: 65px;
+  top: 70px;
   padding: 10px 0 0;
   font-size: 18px;
   letter-spacing: -1px;
   color: #333;
   background: url("../../mobis/images/grayTop20x2_bar.gif") no-repeat 0 0;
+}
+
+.mid-contents-news-1-mid{
+  position: absolute;
+  top: 105px;
+  left: 0;
+  margin: 5px 0 0;
+}
+
+.mid-contents-news-1-bottom{
+  position: absolute;
+  width: 330px;
+  height: 90px;
+  top: 130px;
+  left: -10px;
+  margin: 5px 0 0;
+  text-indent: -4px;
+  line-height: 22px;
+  font-size: 13px;
+}
+
+.mid-contents-news-2-top{
+  position: absolute;
+  top: 70px;
+  padding: 10px 0 0;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #333;
+  background: url("../../mobis/images/grayTop20x2_bar.gif") no-repeat 0 0;
+}
+
+.mid-contents-news-2-mid{
+  position: absolute;
+  top: 105px;
+  left: 0;
+  margin: 5px 0 0;
 }
 
 .footer{
