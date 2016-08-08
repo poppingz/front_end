@@ -14,6 +14,9 @@
 }
 
 .logo{
+  position: absolute;
+  top: 1px;
+  left: 0;
   float: left;
 }
 
@@ -22,6 +25,12 @@
   margin-right: -44px;
   float: right;
   text-align: center;
+}
+
+.gnb-item{
+  position: absolute;
+  top: 7px;
+  right: -38px;
 }
 
 .gnb-depth1-item{
@@ -34,10 +43,41 @@
 }
 
 .gnb-depth1-link{
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   display: block;
   padding: 30px 0 32px;
   left: 0;
+}
+
+.gnb-depth1-img-1{
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  left: 115px;
+}
+
+.gnb-depth1-img-2{
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  left: 272px;
+}
+
+.gnb-depth1-img-3{
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  left: 448px;
+}
+
+.gnb-depth1-img-4{
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  left: 585px;
 }
 
 .gnb-depth2-link{
@@ -122,21 +162,21 @@
 
 .mid-contents-text-1{
   position: absolute;
-  top: -20px;
-  left: 50px;
+  top: -33px;
+  left: 36px;
   z-index: 1;
 }
 
 .mid-contents-circle{
   position: absolute;
-  top: 7px;
-  left: 70px;
+  top: -5px;
+  left: 71px;
 }
 
 .mid-contents-frame{
   position: absolute;
   left: 0;
-  top: 0;
+  top: -13px;
 }
 
 .mid-contents-2{
@@ -211,7 +251,7 @@
   border-top: 2px solid #4b524c;
 }
 
-.mid-contents-mnews{
+.mid-contents-news{
   margin-left: -590px;
 }
 
