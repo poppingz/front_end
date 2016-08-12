@@ -1,7 +1,47 @@
-.banner-1{
-
+.bg-img{
+  display: block;
+  width: 1903px;
+  height: 1141.8px;
+  text-indent: -99999em;
+  background: url("../images/w_visual_bg1.jpg") no-repeat;
+  background-size: 100%;
 }
 
-.main-container{
+.gnb{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.logo{
+  position: absolute;
+  left: 439px;
+  top: 20px;
+}
+
+.top-menu{
+  position: absolute;
+  top: 70px;
+  left: 413px;
+  width: 892px;
+}
+
+.top-menu-logo{
+  float: left;
+}
+
+.top-menu-item{
+  float: left;
+}
+
+.top-menu-item-link{
+  float: left;
+}
+
+.header-small-wrap{
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
 }
