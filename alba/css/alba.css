@@ -19,23 +19,91 @@
   top: 20px;
 }
 
-.top-menu{
+.top-menu-logo{
   position: absolute;
   top: 70px;
   left: 413px;
-  width: 892px;
 }
 
-.top-menu-logo{
-  float: left;
+.top-menu{
+  position: absolute;
+  top: 70px;
+  left: 601px;
+  width: 892px;
+  height: 64px;
+  background: #ffd200;
+  text-indent: -99999em;
 }
 
 .top-menu-item{
+  position: relative;
   float: left;
+  height: 64px;
+  background: url("../images/w_campaign_gnb_v2.png") no-repeat 0 0;
+}
+
+.top-menu-item.first{
+  width: 139px;
+  background-position: -37px 0;
+  margin-left: 29px;
+}
+
+.top-menu-item.second{
+  width: 72px;
+  background-position: -211px 0;
+  margin-left: 35px;
+}
+
+.top-menu-item.third{
+  width: 76px;
+  background-position: -317px 0;
+  margin-left: 34px;
+}
+
+.top-menu-item.forth{
+  width: 103px;
+  background-position: -427px 0;
+  margin-left: 34px;
+}
+
+.top-menu-item.fifth{
+  width: 77px;
+  background-position: -564px 0;
+  margin-left: 34px;
+}
+
+.top-menu-item.sixth{
+  width: 74px;
+  background-position: -674px 0;
+  margin-left: 33px;
+}
+
+.top-menu-item.seventh{
+  width: 93px;
+  background-position: -781px 0;
+  margin-left: 35px;
 }
 
 .top-menu-item-link{
   float: left;
+}
+
+.event{
+  position: absolute;
+  top: 40px;
+  left: 1323px;
+  width: 49px;
+  height: 50px;
+  background: url("../images/w_event_balloon.png") no-repeat 0 0;
+}
+
+.new{
+  position: absolute;
+  top: 40px;
+  left: 1450px;
+  width: 49px;
+  height: 50px;
+  background: url("../images/w_new_balloon.png") no-repeat 0 0;
 }
 
 .header-small-wrap{
@@ -44,4 +112,9 @@
   margin: 0 auto;
   top: 0;
   left: 0;
+}
+
+.main-container{
+  padding: 90px 0 0;
+  background: #fff url('../images/w_contentWrap_bg.png') no-repeat center top;
 }
