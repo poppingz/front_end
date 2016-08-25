@@ -3,7 +3,7 @@
   width: 1903px;
   height: 1141.8px;
   text-indent: -99999em;
-  background: url("../images/w_visual_bg1.jpg") no-repeat;
+  background: url("../images/w_visual_bg1.jpg") no-repeat 0 0;
   background-size: 100%;
 }
 
@@ -114,7 +114,233 @@
   left: 0;
 }
 
-.main-container{
+.contentwrap{
   padding: 90px 0 0;
   background: #fff url('../images/w_contentWrap_bg.png') no-repeat center top;
+  margin: 0 auto;
+}
+
+.main-content-top{
+  width: 1000px;
+  height: 342px;
+  padding-bottom: 85px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-content-top-text-1{
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: -0.1em;
+}
+
+.main-content-top-text-2 {
+  height: 138px;
+  margin-top: 30px;
+  font-size: 24px;
+  letter-spacing: -0.1em;
+  font-weight: bold;
+  line-height: normal;
+  background: url("../images/w_count_bar.png") no-repeat center top;
+}
+
+.strong{
+  font-size: 80px;
+  color: #000;
+}
+
+.join{
+  display: block;
+  width: 360px;
+  height: 70px;
+  margin: 40px auto 0;
+  background: url("../images/w_joinBtn.jpg");
+  text-indent: -99999em;
+}
+
+.square{
+  position: relative;
+  width: 1000px;
+  height: 1020px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.main-content-mid-link-1{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/w_breakfastM_bg.jpg");
+}
+
+.main-content-mid-link-2{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/new_w_reward_bg.jpg");
+}
+
+.main-content-mid-link-3{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/w_postbox_bg_n.jpg");
+}
+
+.main-content-mid-link-4{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/w_custom_bg.jpg");
+}
+
+.main-content-mid-link-5{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/w_heaven_bg.jpg");
+}
+
+.main-content-mid-link-6{
+  float: left;
+  width: 500px;
+  height: 340px;
+  text-indent: -99999em;
+  background: url("../images/w_contract_bg.jpg");
+}
+
+.main-content-bottom{
+  padding: 70px 0;
+  background: #f8f8f8;
+}
+
+.movewrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main-content-bottom-text{
+  font-size: 28px;
+  text-align: center;
+}
+
+.main-content-bottom-button{
+  overflow: hidden;
+  width: 810px;
+  margin: 50px auto 0;
+}
+
+.main-content-bottom-move-menu-1{
+  background: #ffd511;
+  color: #fff;
+  float: left;
+  margin-right: 8px;
+  padding: 6px 20px 8px;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.main-content-bottom-move-menu-2{
+  background: #e6e6e6;
+  color: #666;
+  float: left;
+  margin-right: 8px;
+  padding: 6px 20px 8px;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.main-content-bottom-move-menu-3{
+  background: #e6e6e6;
+  color: #666;
+  float: left;
+  margin-right: 8px;
+  padding: 6px 20px 8px;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.main-content-bottom-move-menu-4{
+  background: #e6e6e6;
+  color: #666;
+  float: left;
+  margin-right: 8px;
+  padding: 6px 20px 8px;
+  font-size: 20px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.main-content-bottom-move{
+  width: 810px;
+  height: 456px;
+  overflow: hidden;
+  margin: 8px auto 0;
+}
+
+.footer{
+  height: 176px;
+  padding: 50px 0;
+  background: #333;
+}
+
+.footer-social{
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+.kakao{
+  display: inline-block;
+  width: 71px;
+  height: 70px;
+  margin: 0 11px;
+  color: transparent;
+  vertical-align: top;
+  background: url("../images/w_social_icon.png") no-repeat 0 0;
+  text-indent: -99999em;
+}
+
+.face{
+  display: inline-block;
+  width: 71px;
+  height: 70px;
+  margin: 0 11px;
+  color: transparent;
+  vertical-align: top;
+  background: url("../images/w_social_icon.png") no-repeat 0 0;
+  text-indent: -99999em;
+}
+
+.twitter{
+  display: inline-block;
+  width: 71px;
+  height: 70px;
+  margin: 0 11px;
+  color: transparent;
+  vertical-align: top;
+  background: url("../images/w_social_icon.png") no-repeat 0 0;
+  text-indent: -99999em;
+}
+
+.talk{
+  background-position: 0 0;
+}
+
+.book{
+  background-position: -81px 0;
+}
+
+.twi{
+  background-position: -162px 0;
 }
