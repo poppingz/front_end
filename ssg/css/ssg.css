@@ -1,0 +1,14 @@
+.gnb{
+  width: 130px;
+  height: 100%;
+  position: fixed;
+}
+
+.content-first{
+  float: right;
+  display: block;
+  width: 1772px;
+  height: 679px;
+  background: url("../image/bg_intro2.jpg") no-repeat 0 0;
+  background-size: 100%;
+}
