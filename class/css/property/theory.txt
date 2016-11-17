@@ -405,7 +405,7 @@ table {
 
 --------------------------------------------------------------------------------------
 
-Horizontal Alignment 가로 정렬(셀 기준)
+            Horizontal Alignment 가로 정렬(셀 기준)
 
 text-align: left
           : center
