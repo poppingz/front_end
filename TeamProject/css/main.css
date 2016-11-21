@@ -1,3 +1,4 @@
+
 .logo{
   position: absolute;
   top: 39px;
@@ -6,6 +7,7 @@
   height: 117px;
   text-indent: -99999em;
   background: url("../images/logo.png") no-repeat 0 0;
+  z-index: 1;
 }
 
 .gnb{
@@ -16,8 +18,35 @@
   height: 112px;
   text-indent: -99999em;
   background: url("../images/gnb.png") no-repeat 0 0;
+  z-index: 1;
 }
 
 .main-wrap{
+  position: relative;
+  height: 970px;
   background: url("../images/background.png") no-repeat 0 0;
+}
+
+.mario{
+  width: 130px;
+  height: 136px;
+  position: absolute;
+  bottom: 80px;
+  left: 179px;
+}
+
+.tmshow{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  bottom: 195px;
+  left: 225px;
+}
+
+.by{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  bottom: 415px;
+  right: 120px;
 }
