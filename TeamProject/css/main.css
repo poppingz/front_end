@@ -14,39 +14,128 @@
   position: absolute;
   top: 40px;
   left: 387px;
-  width: 1435px;
-  height: 112px;
-  text-indent: -99999em;
-  background: url("../images/gnb.png") no-repeat 0 0;
+}
+
+.gnb{
+  width: 1447px;
+  height: 113px;
   z-index: 1;
+}
+
+.gnb-items{
+  text-indent: -99999em;
+}
+
+.gnb-item{
+  position: absolute;
+  height: 112px;
+  float: left;
+}
+
+.gnb-item.first{
+  width: 180px;
+  top: 0;
+  left: 70px;
+}
+
+.gnb-item.second{
+  width: 270px;
+  top: 0;
+  left: 275px;
+}
+
+.gnb-item.third{
+  width: 270px;
+  top: 0;
+  left: 590px;
+}
+
+.gnb-item.forth{
+  width: 241px;
+  top: 0;
+  left: 890px;
+}
+
+.gnb-item.fifth{
+  width: 210px;
+  top: 0;
+  right: 80px;
 }
 
 .main-wrap{
   position: relative;
-  height: 970px;
-  background: url("../images/background.png") no-repeat 0 0;
+  clear: both;
+  width: 100%;
+  height: 974px;
+  background: url("../images/main-back.png") no-repeat 0 0;
+}
+
+.top-mush{
+  position: absolute;
+  top: 355px;
+  left: 1147px;
+}
+
+.top-mush img{
+  width: 66px;
+  height: 66px;
+}
+
+.bottom-mush{
+  position: absolute;
+  top: 815px;
+  left: 1118px;
+}
+
+.bottom-mush .devil{
+  width: 61px;
+  height: 58px;
+  z-index: 1;
+}
+
+.bottom-mush .mt{
+  width: 185px;
+  height: 72px;
+}
+
+.coins{
+  position: absolute;
+  top: 337px;
+  left: 950px;
+  width: 108px;
+  height: 38px;
+}
+
+.coin{
+  width: 33px;
+  height: 38px;
 }
 
 .mario{
-  width: 130px;
-  height: 136px;
   position: absolute;
-  bottom: 80px;
   left: 179px;
+  bottom: 84px;
 }
 
-.tmshow{
+.mario-img{
+  width: 130px;
+  height: 136px;
+}
+
+.travel-start-text{
   position: absolute;
   width: 170px;
   height: 70px;
   bottom: 195px;
   left: 225px;
+  text-indent: -99999em;
 }
 
-.by{
+.travel-end-text{
   position: absolute;
   width: 170px;
   height: 70px;
   bottom: 415px;
   right: 120px;
+  text-indent: -99999em;
 }
