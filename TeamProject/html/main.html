@@ -5,6 +5,47 @@
   <title></title>
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/reset.css">
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script>
+
+    $(function(){
+
+      $('.travel-start').on('click', function(){
+        $('.mario').toggleClass('mario-arrival');
+      });
+
+    });
+
+  </script>
+  <script>
+
+    function bound(){
+
+      $('.cloud').addClass('drop').css({transition : 'top 1s cubic-bezier(.33,.01,.9,.47)'});
+
+      setTimeout(function(){
+
+        $('.cloud').removeClass('drop').css({transition : 'top 1s cubic-bezier(.1,.44,.6,.97)'});
+
+      }, 500);
+
+    }
+
+    $(function(){
+
+      $('.cloud').on('click', function(){
+
+        bound();
+
+        setInterval(function(){
+          bound();
+        }, 1000);
+
+      });
+
+    });
+
+  </script>
 </head>
 <body>
 
@@ -19,13 +60,12 @@
       </div>
 
       <ul class="gnb">
-        <img src="../images/gnb.png">
 
-        <li class="gnb-items"><a href="#" class="gnb-item first">소개</a></li>
-        <li class="gnb-items"><a href="#" class="gnb-item second">여행탐방기</a></li>
-        <li class="gnb-items"><a href="#" class="gnb-item third">여행지정보</a></li>
-        <li class="gnb-items"><a href="#" class="gnb-item forth">여행후기</a></li>
-        <li class="gnb-items"><a href="#" class="gnb-item fifth">갤러리</a></li>
+        <li class="gnb-item-first items"><a href="#" class="gnb-item-link-1">소개</a></li>
+        <li class="gnb-item-second items"><a href="#" class="gnb-item-link-2">여행탐방기</a></li>
+        <li class="gnb-item-third items"><a href="#" class="gnb-item-link-3">여행지정보</a></li>
+        <li class="gnb-item-forth items"><a href="#" class="gnb-item-link-4">여행후기</a></li>
+        <li class="gnb-item-fifth items"><a href="#" class="gnb-item-link-5">갤러리</a></li>
 
       </ul>
 
@@ -35,11 +75,9 @@
 
   <section class="main-wrap">
 
-    <div class="background-item">
+    <div class="main-inner">
 
-      <div class="cloud">
-        <img src="../images/cloud.png">
-      </div>
+      <span class="cloud">구름</span>
 
       <div class="top-mush">
         <img src="../images/green-mushroom.png">
@@ -57,15 +95,15 @@
       </span>
 
       <div class="mario">
-        <a href="#"><img src="../images/mario.gif" class="mario-img">마리오</a>
+        <a href="#"><img src="../images/mario.gif" class="mario-img" alt="마리오"></a>
       </div>
 
       <div class="travel-start">
-        <a href="#"><img src="../images/textbox.png" class="travel-start-text">여행영상보기</a>
+        <a href="#"><img src="../images/show.png" class="travel-start-text" alt="여행영상보기"></a>
       </div>
 
       <div class="travel-end">
-        <a href="#"><img src="../images/textbox.png" class="travel-end-text">부여도착</a>
+        <a href="#"><img src="../images/arrival.png" class="travel-end-text" alt="부여도착"></a>
       </div>
 
     </div>

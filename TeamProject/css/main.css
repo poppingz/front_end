@@ -1,4 +1,8 @@
 
+body{
+  background: url("../images/main-back.png") no-repeat 0 0;
+}
+
 .logo{
   position: absolute;
   top: 39px;
@@ -14,52 +18,76 @@
   position: absolute;
   top: 40px;
   left: 387px;
-}
-
-.gnb{
-  width: 1447px;
-  height: 113px;
+  width: 1464px;
+  height: 114px;
   z-index: 1;
-}
-
-.gnb-items{
   text-indent: -99999em;
 }
 
-.gnb-item{
-  position: absolute;
-  height: 112px;
+.items{
+  position: relative;
   float: left;
+  height: 114px;
+  background: url("../images/gnb2.png")no-repeat 0 0;
 }
 
-.gnb-item.first{
-  width: 180px;
-  top: 0;
-  left: 70px;
+/*.gnb-item.first:hover{*/
+  /*;*/
+/*}*/
+
+.gnb-item-first{
+  width: 249px;
+  background-position: -1px 0;
 }
 
-.gnb-item.second{
-  width: 270px;
-  top: 0;
-  left: 275px;
+.gnb-item-second{
+  width: 319px;
+  background-position: -251px 0;
 }
 
-.gnb-item.third{
-  width: 270px;
-  top: 0;
-  left: 590px;
+.gnb-item-third{
+  width: 308px;
+  background-position: -569px 0;
 }
 
-.gnb-item.forth{
-  width: 241px;
-  top: 0;
-  left: 890px;
+.gnb-item-forth{
+  width: 294px;
+  background-position: -877px 0;
 }
 
-.gnb-item.fifth{
-  width: 210px;
-  top: 0;
-  right: 80px;
+.gnb-item-fifth{
+  width: 294px;
+  background-position: -1142px 0;
+}
+
+.gnb-item-link-1{
+  display: block;
+  width: 249px;
+  height: 114px;
+}
+
+.gnb-item-link-2{
+  display: block;
+  width: 319px;
+  height: 114px;
+}
+
+.gnb-item-link-3{
+  display: block;
+  width: 308px;
+  height: 114px;
+}
+
+.gnb-item-link-4{
+  display: block;
+  width: 294px;
+  height: 114px;
+}
+
+.gnb-item-link-5{
+  display: block;
+  width: 294px;
+  height: 114px;
 }
 
 .main-wrap{
@@ -67,7 +95,21 @@
   clear: both;
   width: 100%;
   height: 974px;
-  background: url("../images/main-back.png") no-repeat 0 0;
+}
+
+.cloud{
+  display: block;
+  position:absolute;
+  top:0;
+  left:0;
+  background: url("../images/cloud2.png")no-repeat 0 0;
+  width: 100%;
+  height: 238px;
+  text-indent: -99999em;
+}
+
+.cloud.drop{
+  top: 70px;
 }
 
 .top-mush{
@@ -113,29 +155,35 @@
 
 .mario{
   position: absolute;
-  left: 179px;
+  left: 100px;
   bottom: 84px;
+  transition: left 3s cubic-bezier(.16,1.34,.85,-0.12);
 }
 
 .mario-img{
-  width: 130px;
+  width: 300px;
   height: 136px;
 }
 
-.travel-start-text{
-  position: absolute;
-  width: 170px;
-  height: 70px;
-  bottom: 195px;
-  left: 225px;
-  text-indent: -99999em;
+.mario-arrival{
+  left: 1600px;
 }
 
-.travel-end-text{
+.travel-start{
   position: absolute;
   width: 170px;
   height: 70px;
+  top: 675px;
+  bottom: 195px;
+  left: 225px;
+}
+
+.travel-end{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  top: 470px;
   bottom: 415px;
   right: 120px;
-  text-indent: -99999em;
+  text-align: center;
 }

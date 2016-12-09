@@ -8,7 +8,9 @@
 
     window.onload = function(){
       if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(myPosition);
+        navigator.geolocation.getCurrentPosition(function(position){
+          console.log( position )
+        });
       }else{
         alert('이 브라우저는 지오로케이션을 지원하지 않습니다.');
       }
