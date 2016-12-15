@@ -1,12 +1,21 @@
 
+@font-face {
+  font-family: 'game';
+  src: url('../font/videogame.eot?#iefix')format('embedded-opentype'),
+  url('../font/videogame.woff')format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
+  font-family: 'game','sans-serif';
   background: url("../images/main-back.png") no-repeat 0 0;
 }
 
 .logo{
   position: absolute;
   top: 39px;
-  left: 106px;
+  left: 105px;
   width: 211px;
   height: 117px;
   text-indent: -99999em;
@@ -18,98 +27,171 @@ body{
   position: absolute;
   top: 40px;
   left: 387px;
-  width: 1464px;
+  width: 1240px;
   height: 114px;
+  background: url("../images/gnb.png")no-repeat 0 0;
   z-index: 1;
-  text-indent: -99999em;
+  text-align: center;
+  line-height: 114px;
 }
 
-.items{
-  position: relative;
-  float: left;
-  height: 114px;
-  background: url("../images/gnb2.png")no-repeat 0 0;
-}
-
-/*.gnb-item.first:hover{*/
-  /*;*/
+/*.items{*/
+  /*position: relative;*/
+  /*float: left;*/
+  /*height: 114px;*/
 /*}*/
 
-.gnb-item-first{
-  width: 249px;
-  background-position: -1px 0;
+/*.gnb-item-first{*/
+  /*width: 249px;*/
+  /*background-position: -1px 0;*/
+/*}*/
+
+/*.gnb-item-second{*/
+  /*width: 319px;*/
+  /*background-position: -251px 0;*/
+/*}*/
+
+/*.gnb-item-third{*/
+  /*width: 308px;*/
+  /*background-position: -569px 0;*/
+/*}*/
+
+/*.gnb-item-forth{*/
+  /*width: 294px;*/
+  /*background-position: -877px 0;*/
+/*}*/
+
+/*.gnb-item-fifth{*/
+  /*width: 294px;*/
+  /*background-position: -1142px 0;*/
+/*}*/
+
+.gnb-item{
+  float: left;
+  font-size: 50px;
 }
 
-.gnb-item-second{
-  width: 319px;
-  background-position: -251px 0;
+.link{
+  text-shadow: 0 0 0 #000;
+  transition: all 0.5s;
 }
 
-.gnb-item-third{
-  width: 308px;
-  background-position: -569px 0;
-}
-
-.gnb-item-forth{
-  width: 294px;
-  background-position: -877px 0;
-}
-
-.gnb-item-fifth{
-  width: 294px;
-  background-position: -1142px 0;
+.link:hover{
+  text-shadow: 1px 1px 0 #565656, 2px 2px 0 #565656, 3px 3px 0 #565656;
 }
 
 .gnb-item-link-1{
   display: block;
-  width: 249px;
+  width: 200px;
   height: 114px;
 }
 
 .gnb-item-link-2{
   display: block;
-  width: 319px;
+  width: 282px;
   height: 114px;
 }
 
 .gnb-item-link-3{
   display: block;
-  width: 308px;
+  width: 272px;
   height: 114px;
 }
 
 .gnb-item-link-4{
   display: block;
-  width: 294px;
+  width: 238px;
   height: 114px;
 }
 
 .gnb-item-link-5{
   display: block;
-  width: 294px;
+  width: 238px;
   height: 114px;
 }
 
 .main-wrap{
   position: relative;
-  clear: both;
-  width: 100%;
   height: 974px;
 }
 
-.cloud{
+/*.cloud.a1 {animation: ani1  1s 0.5s   infinite;}*/
+/*.cloud.a2 {animation: ani1  1s 1.5s   infinite;}*/
+/*.cloud.a3 {animation: ani1  1s 5.5s   infinite;}*/
+.cloud1{
   display: block;
   position:absolute;
-  top:0;
-  left:0;
-  background: url("../images/cloud2.png")no-repeat 0 0;
-  width: 100%;
-  height: 238px;
+  top: 157px;
+  left: 10px;
+  background: url("../images/basic_cloud.png")no-repeat 0 0;
+  width: 197px;
+  height: 75px;
   text-indent: -99999em;
+  animation: cloud1  2.5s      0.5s   infinite;
+  /*      변수명 이동시간 딜레이 횟수*/
 }
 
-.cloud.drop{
-  top: 70px;
+@keyframes cloud1 {
+  0%{top: 157px;}
+  50%{top: 170px;}
+  100%{top: 157px;}
+}
+
+.cloud2{
+  display: block;
+  position:absolute;
+  top: 280px;
+  left: 580px;
+  background: url("../images/small_cloud.png")no-repeat 0 0;
+  width: 170px;
+  height: 81px;
+  text-indent: -99999em;
+  animation: cloud2  2.5s      0.5s   infinite;
+  /*      변수명 이동시간 딜레이 횟수*/
+}
+
+@keyframes cloud2 {
+  0%{top: 280px;}
+  50%{top: 300px;}
+  100%{top: 280px;}
+}
+
+.cloud3{
+  display: block;
+  position:absolute;
+  top: 157px;
+  right: 500px;
+  background: url("../images/basic_cloud.png")no-repeat 0 0;
+  width: 197px;
+  height: 75px;
+  text-indent: -99999em;
+  animation: cloud3  2.5s      0.5s   infinite;
+  /*      변수명 이동시간 딜레이 횟수*/
+}
+
+@keyframes cloud3 {
+  0%{top: 157px;}
+  50%{top: 185px;}
+  100%{top: 157px;}
+}
+
+.cloud4{
+  display: block;
+  position:absolute;
+  top: 130px;
+  right: 10px;
+  background: url("../images/basic_cloud.png")no-repeat 0 0;
+  width: 197px;
+  height: 75px;
+  text-indent: -99999em;
+  animation: cloud4  2.5s      0.5s   infinite;
+  /*      변수명 이동시간 딜레이 횟수*/
+}
+
+@keyframes cloud4 {
+  0%{top: 130px;}
+  50%{top: 150px;}
+  100%{top: 130px;}
 }
 
 .top-mush{
@@ -148,21 +230,66 @@ body{
   height: 38px;
 }
 
-.coin{
+.coin1{
   width: 33px;
   height: 38px;
+  animation: coin1 2s 0.3s infinite linear ;
 }
 
-.mario{
+@keyframes coin1 {
+  0%{ transform: rotateY(0deg)}
+  100%{ transform: rotateY(360deg)}
+}
+
+.coin2{
+  width: 33px;
+  height: 38px;
+  animation: coin2 2s 0.6s infinite linear ;
+}
+
+@keyframes coin2 {
+  0%{ transform: rotateY(0deg)}
+  100%{ transform: rotateY(360deg)}
+}
+
+.coin3{
+  width: 33px;
+  height: 38px;
+  animation: coin3 2s 1s infinite linear ;
+}
+
+@keyframes coin3 {
+  0%{ transform: rotateY(0deg)}
+  100%{ transform: rotateY(360deg)}
+}
+
+.mario .mario-img{
   position: absolute;
-  left: 100px;
+  left: 190px;
   bottom: 84px;
-  transition: left 3s cubic-bezier(.16,1.34,.85,-0.12);
+}
+.mario .mario-img2{
+  position: absolute;
+  left: 1600px;
+  bottom: 84px;
+  opacity: 0;
+}
+.mario.move .mario-img {
+display:none;
+}
+.mario.move .mario-img2{
+  animation: mario 3s 1 linear;
 }
 
-.mario-img{
-  width: 300px;
-  height: 136px;
+@keyframes mario {
+  0%{left: 190px; opacity:1;}
+  95%{ opacity:1;}
+  100%{left: 1600px; opacity: 0;}
+}
+
+.mario img{
+  width: 150px;
+  height: 150px;
 }
 
 .mario-arrival{
@@ -173,7 +300,7 @@ body{
   position: absolute;
   width: 170px;
   height: 70px;
-  top: 675px;
+  top: 650px;
   bottom: 195px;
   left: 225px;
 }

@@ -14,33 +14,8 @@
         $('.mario').toggleClass('mario-arrival');
       });
 
-    });
-
-  </script>
-  <script>
-
-    function bound(){
-
-      $('.cloud').addClass('drop').css({transition : 'top 1s cubic-bezier(.33,.01,.9,.47)'});
-
-      setTimeout(function(){
-
-        $('.cloud').removeClass('drop').css({transition : 'top 1s cubic-bezier(.1,.44,.6,.97)'});
-
-      }, 500);
-
-    }
-
-    $(function(){
-
-      $('.cloud').on('click', function(){
-
-        bound();
-
-        setInterval(function(){
-          bound();
-        }, 1000);
-
+      $('.mario').on('click',function(){
+        $('.mario').addClass('move')
       });
 
     });
@@ -61,11 +36,11 @@
 
       <ul class="gnb">
 
-        <li class="gnb-item-first items"><a href="#" class="gnb-item-link-1">소개</a></li>
-        <li class="gnb-item-second items"><a href="#" class="gnb-item-link-2">여행탐방기</a></li>
-        <li class="gnb-item-third items"><a href="#" class="gnb-item-link-3">여행지정보</a></li>
-        <li class="gnb-item-forth items"><a href="#" class="gnb-item-link-4">여행후기</a></li>
-        <li class="gnb-item-fifth items"><a href="#" class="gnb-item-link-5">갤러리</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-1 link">소개</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-2 link">여행탐방기</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-3 link">여행지정보</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-4 link">여행후기</a></li>
+        <li class="gnb-item"><a href="#" class="gnb-item-link-5 link">갤러리</a></li>
 
       </ul>
 
@@ -77,7 +52,10 @@
 
     <div class="main-inner">
 
-      <span class="cloud">구름</span>
+      <span class="cloud1">구름</span>
+      <span class="cloud2">구름</span>
+      <span class="cloud3">구름</span>
+      <span class="cloud4">구름</span>
 
       <div class="top-mush">
         <img src="../images/green-mushroom.png">
@@ -89,13 +67,14 @@
       </div>
 
       <span class="coins">
-        <img src="../images/coin.png" class="coin 1">
-        <img src="../images/coin.png" class="coin 2">
-        <img src="../images/coin.png" class="coin 3">
+        <img src="../images/coin.png" class="coin1">
+        <img src="../images/coin.png" class="coin2">
+        <img src="../images/coin.png" class="coin3">
       </span>
 
       <div class="mario">
         <a href="#"><img src="../images/mario.gif" class="mario-img" alt="마리오"></a>
+        <a href="#"><img src="../images/mario.gif" class="mario-img2" alt="마리오"></a>
       </div>
 
       <div class="travel-start">
